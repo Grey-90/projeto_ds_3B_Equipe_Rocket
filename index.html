@@ -13,15 +13,15 @@
 
         <div id="message" class="message" style="display: none;"></div>
 
-        <form id="loginForm">
+        <form action="index.php" method="post" id="loginForm">
             <div class="form-group">
                 <label>Email</label>
-                <input type="email" id="email" placeholder="email@exemplo.com" required>
+                <input name="email" type="email" id="email" placeholder="email@exemplo.com" required>
             </div>
 
             <div class="form-group">
                 <label>Senha</label>
-                <input type="password" id="password" placeholder="Sua senha" required>
+                <input name="senha" type="password" id="password" placeholder="Sua senha" required>
             </div>
 
             <div class="form-group">
@@ -31,12 +31,11 @@
             </div>
 
             <button type="submit">Entrar</button>
-        </form>
+        </form >
 
         <div class="link">
             <a href="#">Esqueceu a senha?</a> | <a href="#">Cadastro</a>
         </div>
     </div>
-
 </body>
 </html>
